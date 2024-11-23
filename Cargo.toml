@@ -1,0 +1,16 @@
+[package]
+name = "advent-of-code-2024"
+version = "0.1.0"
+edition = "2021"
+
+[alias]
+bench-main = "bench -p main_project"
+code-coverage = "tarpaulin --workspace"
+
+[workspace]
+members = ["main_project", "day00"]
+
+[dependencies]
+
+[dev-dependencies]
+cargo-tarpaulin = "0.31.2"

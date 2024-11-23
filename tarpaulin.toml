@@ -1,0 +1,12 @@
+# tarpaulin.toml
+
+# A list of test binaries to exclude
+ignore-tests = ["benches/*", "examples/*"]
+
+# A list of files or modules to exclude from coverage
+exclude-files = [
+    "tests/utils.rs", # Ignore test utilities
+]
+
+# Save output formats (e.g., html, json)
+output-format = ["Html"]
