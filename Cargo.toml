@@ -8,7 +8,7 @@ bench-main = "bench -p main_project"
 code-coverage = "tarpaulin --workspace"
 
 [workspace]
-members = ["main_project", "day00"]
+members = ["main_project", "day00", "day01"]
 
 [dependencies]
 

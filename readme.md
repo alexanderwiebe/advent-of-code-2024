@@ -35,6 +35,11 @@ advent-of-code-2024/
 To compile and run the Rust solutions:
 
 1. **Install Rust**: If you haven’t already installed Rust, follow the instructions [here](https://www.rust-lang.org/tools/install).
+If you're using github codespaces something like:
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh source $HOME/.cargo/env
+```
+
 2. **Clone the repository**:
    ```bash
    git clone https://github.com/alexanderwiebe/advent-of-code-2024.git
