@@ -22,7 +22,7 @@ impl fmt::Display for ParsedLine {
 pub fn read_text_file() -> Vec<ParsedLine> {
     let parse_regex = Regex::new(r"^(.*?)\s+(.*?)\s*?$").unwrap();
 
-    include_str!("../resources/problem.txt")
+    include_str!("../resources/sample.txt")
         .lines()
         .filter_map(|line| {
             parse_regex.captures(line).and_then(|captures| {

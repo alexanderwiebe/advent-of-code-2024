@@ -50,7 +50,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh source $HOME/.car
 
 Example for day 1:
 ```bash
-cargo run -p day01
+cargo test -p day01 -- --nocapture
 ```
 
 ## Day-by-Day Progress
